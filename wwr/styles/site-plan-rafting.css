@@ -31,7 +31,6 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--secondary-color);
 }
 
-/*
 h2 {
     font-family: var(--callout-font);
     color: var(--accent2-color);
@@ -41,7 +40,7 @@ h3 {
     font-family: var(--callout-font);
     color: var(--primary-color);
 }
-*/
+
 header {
   padding: 20px;
   background-color: var(--nav-background-color);
