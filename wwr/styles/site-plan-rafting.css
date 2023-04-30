@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+:root {
+  --primary-color: #023047;
+  --secondary-color: #023e8a;
+  --accent1-color: #FFB703;
+  --accent2-color: #FB8500;
+
+  --heading-font: 'Roboto Slab', serif;
+  --paragraph-font: 'PT Sans', sans-serif;
+  --callout-font: 'Permanent Marker', cursive;
+
+  --nav-background-color: #8ecae6;
+  --nav-link-color: #023047;
+  --nav-hover-link-color: #fd9e02;
+  --nav-hover-background-color: #9b2226;
+}
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+        
+h1, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--secondary-color);
+}
+
+h2 {
+    font-family: var(--callout-font);
+    color: var(--accent2-color);
+  }
+
+h3 {
+    font-family: var(--callout-font);
+    color: var(--primary-color);
+}
+
+header {
+  padding: 20px;
+  background-color: var(--nav-background-color);
+}
+
+p {
+  padding: 25px;
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
