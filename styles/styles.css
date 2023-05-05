@@ -60,6 +60,7 @@ aside {
   background-color: brown;
   color:blanchedalmond;
   text-align: center;
+  position: relative;
 }
 
 aside img{
@@ -81,8 +82,8 @@ footer{
 
 aside h2{
   position: absolute;
-  top: 530px;
-  left: 85px;
+  top: 2px;
+  left: 10px;
 }
 
 
