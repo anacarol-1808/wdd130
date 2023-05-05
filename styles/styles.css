@@ -54,7 +54,7 @@ main {
 
 aside {
   width: 20em;
-  margin: 1em;
+  margin: 0 0 1em 1em;
   border: 10px solid rgba(0, 0, 0, 0.2);
   padding: 20px;
   background-color: brown;
