@@ -53,7 +53,7 @@ p {
 }
 
 aside {
-  width: 70%;
+  width: 20em;
   height: 95%;
   border: 10px solid rgba(0, 0, 0, 0.2);
   background-color: brown;
