@@ -125,14 +125,19 @@ header img{
 
 footer{
   text-align: center;
+  clear: both;
+  background-color: #e1f1f9;
+  height: 6em;
+  padding-top: 0.5em;
 }
 
 footer img{
-    float: right;
-    width: 50px;
-    margin: 0.5em;
-    text-align: center;
+  float: right;
+  width: 50px;
+  margin: 0.5em;
+  text-align: center;
 }
+
 
 header{
   display: grid;
@@ -156,16 +161,26 @@ header{
   width: 400px;
   height: 250px;
   margin-right: 50px;
+  justify-content: space-between;
+}
+
+.column{
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+.row after{
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .section2 img{
-  width: 150px;
+  width: 150%;
 }
 
-section2{
-  grid-column: span 5;
-  flex-wrap: wrap;
-}
+
 
 
 
