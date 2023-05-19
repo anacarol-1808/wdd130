@@ -43,14 +43,19 @@ body{
     max-width: 960px;
     padding: 20px;
     color: #023047;
+    width: fixed;
 }
 
 .hero{
     position: relative;
+    display: grid;
+    width: 100%;
+    height: auto;
+
 }
 
 .hero .imghero{
-  display: block;
+  display: grid;
   width: 100%;
   height: auto;
   margin-top: 20px;
