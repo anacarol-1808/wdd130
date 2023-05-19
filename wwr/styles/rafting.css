@@ -40,7 +40,7 @@ h3 {
 
 body{
     font-family: var(--paragraph-font);
-    max-width: 960px;
+    width: 960px;
     padding: 20px;
     color: #023047;
     width: fixed;
