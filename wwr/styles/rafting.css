@@ -3,55 +3,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 :root {
-    --primary-color: #023047;
-    --secondary-color: #023e8a;
-    --accent1-color: #FFB703;
-    --accent2-color: #FB8500;
-  
-    --heading-font: 'Roboto Slab', serif;
-    --paragraph-font: 'PT Sans', sans-serif;
-    --callout-font: 'Permanent Marker', cursive;
-  
-    --nav-background-color: #e1f1f9;
-    --nav-link-color: #023047;
-    --nav-hover-link-color: #fd9e02;
-    --nav-hover-background-color: #9b2226;
+  --primary-color: #023047;
+  --secondary-color: #023e8a;
+  --accent1-color: #FFB703;
+  --accent2-color: #FB8500;
+
+  --heading-font: 'Roboto Slab', serif;
+  --paragraph-font: 'PT Sans', sans-serif;
+  --callout-font: 'Permanent Marker', cursive;
+
+  --nav-background-color: #e1f1f9;
+  --nav-link-color: #023047;
+  --nav-hover-link-color: #fd9e02;
+  --nav-hover-background-color: #9b2226;
   }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--secondary-color);
-    text-align: center;
+  font-family: var(--heading-font);
+  color: var(--secondary-color);
+  text-align: center;
 }
 
 h2 {
-    font-family: var(--callout-font);
-    color: var(--accent2-color);
+  font-family: var(--callout-font);
+  color: var(--accent2-color);
+  font-size: 1.7rem;
 }
 
 h3 {
-    font-family: var(--callout-font);
-    color: var(--primary-color);
+  font-family: var(--callout-font);
+  color: var(--primary-color);
 }
 
 body{
-    font-family: var(--paragraph-font);
-    width: 960px;
-    padding: 20px;
-    color: #023047;
-    width: fixed;
+  font-family: var(--paragraph-font);
+  width: 960px;
+  padding: 20px;
+  color: #023047;
+  width: fixed;
 }
 
 .hero{
-    position: relative;
-    display: grid;
-    width: 100%;
-    height: auto;
-
+  position: relative;
+  display: grid;
+  width: 100%;
+  height: auto;
 }
 
 .hero .imghero{
@@ -62,41 +62,40 @@ body{
 }
 
 h1{
-    position: absolute;
-    top: 2px;
-    left: 220px;
-    color: #ffbb0f;
-    text-align: center;
-    justify-content: space-around;
+  position: absolute;
+  top: 2px;
+  left: 220px;
+  color: #ffbb0f;
+  text-align: center;
+  justify-content: space-around;
 }
 
 .hero article{
-    position: absolute;
-    top: 60px;
-    left: 2em;
-    right: 2em;
-    color: white;
-    background-color: #ca92037a;
-    padding-left: 20px;
-    text-align: center;
-    margin-top: 1em;
+  position: absolute;
+  top: 60px;
+  left: 2em;
+  right: 2em;
+  color: white;
+  background-color: #ca92037a;
+  padding-left: 20px;
+  text-align: center;
+  margin-top: 1em;
 }
 
 .hero .happyperson{
-    float: right;
-    width: 200px;
-    left: 200px;
-    margin: 1em;
+  float: right;
+  width: 200px;
+  left: 200px;
+  margin: 1em;
 
 }
 
 nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
-    grid-column: 2;
-    justify-content: space-between;
-
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+  grid-column: 2;
+  justify-content: space-between;
   }
 
 nav a {
@@ -157,7 +156,6 @@ header{
   display: grid;
   padding: 1em;
   margin-top: 1em;
-  margin-bottom: 1em;
   background-color: #ffc7397b;
 }
 
@@ -170,7 +168,13 @@ header{
   float: left;
   width: 1fr;
   padding: 5px;
+  border-radius: 2rem;
   
+}
+
+.section1 p{
+  text-align: justify;
+  padding: 10px;
 }
 
 .section1 img{
