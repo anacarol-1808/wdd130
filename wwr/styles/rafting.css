@@ -206,6 +206,10 @@ header{
   height: 90px;
 }
 
+figcaption {
+  text-align: center;
+}
+
 
 
 
