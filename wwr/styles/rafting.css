@@ -80,6 +80,7 @@ h1{
   padding-left: 20px;
   text-align: center;
   margin-top: 1em;
+  border-radius: 1rem;
 }
 
 .hero .happyperson{
@@ -201,6 +202,9 @@ header{
   width: 150%;
 }
 
+.column figure img{
+  height: 90px;
+}
 
 
 
