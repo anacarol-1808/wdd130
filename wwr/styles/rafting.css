@@ -223,13 +223,17 @@ figcaption {
 }
 
 .contact {
-  background-color:#e1f1f9;
+  background-color:#acdff7;
   display: grid;
   width: 50%;
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 30px;
  
+}
+
+.contact h2 {
+  color:#023e8a;
 }
 
 .contact img {
