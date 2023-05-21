@@ -302,13 +302,13 @@ textarea {
   display: flex;
 }
 
-#newsletter-label {
+#nlabel {
   display: flex;
   font-size: 1rem;
   padding-top: 5px;
 }
 
-#newsletter-checkbox {
+#nbox {
   width: 18px;
   float: right;
 }
