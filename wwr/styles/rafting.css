@@ -213,6 +213,7 @@ figcaption {
 .employees {
   display: flex;
   background-color: #fd9d021c;
+  margin-top: 20px;
 }
 
 .employees img {
@@ -337,6 +338,11 @@ button {
 button:hover {
   background-color: #9b2226;
   color: #fdd46c;
+}
+
+.h1-contact {
+  position: inherit;
+  color: #FB8500;
 }
 
 
