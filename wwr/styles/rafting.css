@@ -295,11 +295,6 @@ figcaption {
   width: 300px;
 }
 
-#purpose {
-  font-size: 1.1rem;
-  margin: 10px;
-}
-
 textarea {
   width: 95%;
   margin-top: 10px;
@@ -344,6 +339,13 @@ button:hover {
   position: inherit;
   color: #FB8500;
 }
+
+.purpose input{
+  float: left;
+  margin: 5px;
+  width: 20px;
+}
+
 
 
 
