@@ -210,6 +210,52 @@ figcaption {
   text-align: center;
 }
 
+.employees {
+  display: flex;
+  background-color: #fd9d021c;
+}
+
+.employees img {
+  width: 230px;
+  height: 230px;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+.contact {
+  background-color: #8ecae65c;
+  display: grid;
+  width: 400px;
+  grid-auto-columns: 2fr;
+  grid-auto-rows: 3fr;
+}
+
+.contact img {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+}
+
+.contact p {
+  margin-left: 80px;
+  margin-right: 20px;
+  background-color: red;
+}
+
+.phone {
+  float: left; 
+}
+
+.email {
+  float: left;
+}
+
+.address {
+  float: left;
+}
+
+
+
 
 
 

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>White Water Rafting | Contact Us</title>
+        <meta name="description" content="The page will include contact information and a contact form which the user can submit to ask questions about the company and its services.">
+        <meta name="author" content="Carol Faccinetto">
+        <link href="styles/rafting.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="Rafting Site Logo">
+            <nav>
+                <a href="wwr/index.html">Index</a>
+                <a href="wwr/about.html">About</a>
+                <a href="wwr/trips.html">Trips</a>
+                <a href="wwr/contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Our People</h2>
+           <div class="employees">
+            <figure>
+                <img src="images/Employee1.webp" alt="John">
+                <caption>John - River Boss</caption>
+            </figure>
+            <figure>
+                <img src="images/Employee2.webp" alt="Richard">
+                <caption>Richard - Dr. Hydrogealogy</caption>
+            </figure>
+            <figure>
+                <img src="images/Employee3.webp" alt="Tom">
+                <caption>Tom - Water Master</caption>
+            </figure>
+           </div>
+
+           <div class="columns">
+            <h2>Contact Us</h2>
+                <section class="contact">
+                    <div class="rows">
+                        <img class="phone" src="images/phone.png" alt="phone">
+                        <p>By phone: 208-123-432</p>
+                    </div>
+                    <div class="rows">
+                        <img class="email" src="images/email.png" alt="email" id="email">
+                        <p>Email Us: water@rafting.com</p>
+                    </div>
+                    <div class="rows">
+                        <img class="address" src="images/address.png" alt="address" id="address">
+                        <p>Where we are</p>
+                    </div>
+                </section>
+
+                <section class="form">
+                    <h2>About You</h2>
+                    <form>
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div>
+                            <label for="purpose">Purpose</label>
+                            <select id="purpose" name="purpose">
+                                <option value="" selected disabled>Choose one...</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="reservation">Reservation Question</option>
+                                <option value="suggestion">Website Suggestion</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Type here..."></textarea>
+                        </div>
+                        <div>
+                            <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+
+                </section>
+           </div>
+        </main>
+
+        <footer>
+            <p>
+                &copy; 2023 White Water Rafting | Carol Faccinetto 
+                <a href="https://en-us.facebook.com/"><img src="images/Facebook-logo.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/"><img src="images/Instagram.webp" alt="Instagram"></a>
+                <a href="https://twitter.com/"><img src="images/Twitter.png" alt="Twitter"></a>
+            </p>
+            
+        </footer>
+    </body>
+</html>
