@@ -44,7 +44,6 @@ body{
   width: 960px;
   padding: 20px;
   color: #023047;
-  width: fixed;
 }
 
 .hero{
@@ -167,7 +166,6 @@ header{
 
 .fraction {
   float: left;
-  width: 1fr;
   padding: 5px;
   border-radius: 2rem;
   
@@ -290,7 +288,7 @@ figcaption {
 }
 
 .form input {
-  size: 1.1rem;
+  resize: 1.1rem;
   margin-right: 10px;
   width: 300px;
 }
@@ -302,7 +300,6 @@ textarea {
 
 .newsletter {
   display: flex;
-  font-size: 
 }
 
 #newsletter-label {
