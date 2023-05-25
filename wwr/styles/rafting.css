@@ -218,7 +218,7 @@ figcaption {
 
 .employees {
   display: flex;
-  background-color: #fd9d021c;
+  background-color: #fd9d0266;
   margin-top: 20px;
 }
 
@@ -253,6 +253,7 @@ figcaption {
 .contact p {
   margin-left: 80px;
   margin-right: 20px;
+  font-weight: bold;
 }
 
 .phone {
@@ -278,7 +279,7 @@ figcaption {
 }
 
 .form {
-  background-color:#fb8600c5;
+  background-color:#fd941cc5;
   width: 50%;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -294,6 +295,8 @@ figcaption {
   font-size: 1.2rem;
   margin-right: 10px;
   margin-bottom: 10px;
+  color: #9b2226;
+  font-weight: bold;
 }
 
 .form input {
@@ -332,7 +335,8 @@ button:hover {
 
 .h1-contact {
   position: inherit;
-  color: #FB8500;
+  color: #c56a02;
+  background-color: white;
 }
 
 .purpose input{
