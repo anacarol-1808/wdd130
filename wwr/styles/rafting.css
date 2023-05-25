@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 :root {
-  --primary-color: #023047;
+  --primary-color: ;
   --secondary-color: #023e8a;
   --accent1-color: #FFB703;
   --accent2-color: #db7501;
@@ -62,16 +62,20 @@ body{
 
 h1{
   position: absolute;
-  top: 2px;
-  left: 220px;
+  top: 10px;
+  left: 30px;
   color: #ffbb0f;
   text-align: center;
   justify-content: space-around;
+  background-color: #023047af;
+  padding: 5px;
+  border-radius: 0.5rem;
 }
+
 
 .hero article{
   position: absolute;
-  top: 60px;
+  top: 80px;
   left: 2em;
   right: 2em;
   color: white;
