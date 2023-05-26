@@ -53,7 +53,7 @@ body{
   height: auto;
 }
 
-.hero .imghero{
+.hero img{
   display: grid;
   width: 100%;
   height: auto;
@@ -347,6 +347,73 @@ button:hover {
 
 #oneponly{
   font-size: 1.2rem;
+}
+
+.h1-trips {
+  margin-top: 100px;
+  padding-left: 280px;
+}
+
+.hero p {
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.hero button {
+  color: #023e8a;
+  box-shadow: 0px 8px 15px #023d8a7e;
+}
+
+.hero button:hover {
+  background-color: #023e8a;
+  color: #fdd46c;
+}
+
+.trips {
+  display: grid;
+  grid-template-columns: auto auto auto;
+ 
+  
+}
+
+.trips img {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.trips p {
+  text-align: center;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 20px;
+ 
+}
+
+.trips button {
+  color: #023e8a;
+  box-shadow: 0px 8px 15px #023d8a7e;
+  height: 50px;
+  width: 160px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.trips button:hover {
+  background-color: #023e8a;
+  color: #fdd46c;
+}
+
+hr {
+  width: 800px;
+  color: #023e8a;
 }
 
 
