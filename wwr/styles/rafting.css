@@ -96,8 +96,6 @@ h1{
 
 }
 
-
-
 nav {
   background-color: var(--nav-background-color);
   font-size: 1.2rem;
@@ -415,6 +413,93 @@ hr {
   width: 800px;
   color: #023e8a;
 }
+
+.hero3 img {
+  width: 100%;
+}
+
+.hero3 h1 {
+  background-color: rgba(0, 0, 0, 0.521);
+  color: #e1f1f9;
+  font-family: var(--callout-font);
+  font-weight: 10;
+  font-size: 4rem;
+  margin-top: 190px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 60px;
+  width: 800px;
+}
+
+.hero3 h2 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.521);
+  color: #e1f1f9;
+  width: 300px;
+  border-radius: 0.5rem;
+  margin-top: 280px;
+  margin-left: 550px;
+  font-size: 2rem;
+  font-weight: 100;
+  padding: 20px;
+  padding-bottom: 100px;
+}
+
+.hero3 button {
+  position: absolute;
+  margin-top: 410px;
+  margin-left: 615px;
+  width: 180px;
+}
+
+.grid-one {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+}
+
+.grid-one p {
+  margin: 20px;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+#image-one {
+  margin: 0 auto;
+  width: 500px;
+  margin: 10px;
+  border-radius: 0.5rem;
+}
+
+#image-two {
+  margin: 0 auto;
+  width: 350px;
+  margin: 10px;
+  border-radius: 0.5rem;
+}
+
+#button-one {
+  margin-left: 200px;
+  width: 150px;
+}
+
+.form-two {
+  background-color: #bde4f6;
+  color: #023047;
+  padding: 20px;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.form-two h2 {
+  color: #023047;
+}
+
+.form-two input {
+  font-size: 1.2rem;
+  margin: 5px;
+}
+
 
 
 
